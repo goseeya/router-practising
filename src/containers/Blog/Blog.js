@@ -39,8 +39,9 @@ class Blog extends Component {
                 // Switch lets to reneder only first matched path
 
                 */}
+                <Route path="/" exact component={Posts} />
+
                 <Switch>
-                  <Route path="/" exact component={Posts} />
                   <Route path="/new-post" component={NewPost} />
                   <Route path="/:id" exact component={FullPost} />
                 </Switch>

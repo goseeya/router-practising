@@ -5,7 +5,7 @@ import './Post.css';
 
 const post = (props) => {
   // routing is not passed down into component tree
-  console.log(props);
+  // console.log(props);
   return (
     <article className="Post" onClick={props.clicked}>
         <h1>{props.title}</h1>
